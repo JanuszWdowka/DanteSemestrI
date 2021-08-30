@@ -1,0 +1,40 @@
+Napisz funkcję, która w sposób rekurencyjny obliczy wartość wielomianu 
+a
+0
+x
+n
++
+.
+.
++
+a
+n
+−
+1
+x
++
+a
+n
+, wykorzystując schemat Hornera. Funkcja powinna zwracać wartość wielomianu lub -1 w przypadku przekazania błędnych danych.
+
+Zmodyfikuj funkcję z zadania read_vector z zadania 7.22 Działania na wektorach w taki sposób, aby umożliwiała ona wczytywanie liczb podwójnej prceyzji. Prototypy funkcji powinny wyglądać następująco:
+
+int read_vector_double(double vec[], int size, double stop_value);
+double horner(double a[], double x, int n);
+Napisz program, który pobierze od użytkownika współczynniki wielomianu (nie więcej niż 100, 0 oznacza zakończenie ciągu) i zmienną x. Wypisz na konsoli wynik obliczeń.
+
+W przypadku wprowadzenia błędnych danych wyświetlić komunikat Incorrect input i niezwłocznie zakończyć działanie z kodem błędu 1.
+W przypadku podania niewystarczającej liczby danych program powinien poinformować o tym użytkownika komunikatem Not enough data available i zakończyć działanie z kodem błędu 3.
+Przykładowe wejście:
+
+podaj wspolczynniki wielomianu:⏎
+ 2 -3 -9.5 14.2 5 0⏎
+podaj zmienna x:⏎
+ 3.5⏎
+Przykładowe wyjście:
+
+w=109.83⏎
+Uwagi
+W programie nie wolno używać zmiennych globalnych.
+W programie nie wolno używać słowa kluczowego static.
+W programie nie wolno używać pętli, za wyjątkiem funkcji read_vector_double.
