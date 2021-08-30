@@ -1,0 +1,11 @@
+Napisz swoje wersje funkcji strlen, atoi oraz atof o następujących prototypach:
+
+unsigned int my_strlen(const char tab[]);
+int my_atoi(const char tab[]);
+float my_atof(const char tab[]);
+W przypadku kiedy konwersja nie jest możliwa, funkcje my_atoi i my_atof mają zwrócić wartość 0.
+
+Napisz program, który pobierze od użytkownika ciąg znaków (nie więcej niż 15). Następnie korzystając z powyższych funkcji, policzy i wypisze w 
+oddzielnych liniach długość wprowadzonego ciągu, wynik jego konwersji na typ int i float (wartość typu float ma być wyświetlona z dokładnością 4 miejsc po przecinku).
+Uwagi
+W programie nie można korzystać z bibliotek stdlib i string oraz z funkcji z rodziny scanf (oprócz funkcji scanf).
