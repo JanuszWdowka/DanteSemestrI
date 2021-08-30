@@ -1,0 +1,13 @@
+Napisz swoje wersje funkcji strcmp i strncmp o następujących prototypach:
+
+int my_strcmp(const char tab[], const char tab2[]);
+int my_strncmp(const char tab[], const char tab2[], unsigned int n);
+Napisz program, który pobierze od użytkownika dwa ciągi znaków (nie więcej niż 100) i liczbę n, oznaczającą ile znaków ma zostać porównanych. Następnie korzystając z powyższych funkcji program ma porównać i wypisać wynik porównania (w dwóch liniach):
+
+ciągu pierwszego z drugim,
+pierwszych n znaków ciągu pierwszego z drugim. W przypadku podania przez użytkownika błędnych danych program powinien wyświetlić komunikat Incorrect input i zakończyć działanie 
+z kodem błędu 1.
+Pamiętaj, że pisząc własne wersje standardowych funkcji należy dokładnie zapoznać się z ich specyfikacją. Fora dla programistów nie zawsze są do tego najlepszym miejscem 😃
+
+Uwagi
+W programie nie można korzystać z bibliotek stdlib i string oraz z funkcji z rodziny scanf (oprócz funkcji scanf).
