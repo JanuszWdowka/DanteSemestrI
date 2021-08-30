@@ -1,0 +1,22 @@
+Napisz funkcję obliczającą NWD (największy wspólny dzielnik) dwóch liczb zgodnie z algorytmem Euklidesa:
+
+NWD(a, b) = a dla b = 0
+NWD(b, a mod b) dla b > 1
+Funkcja powinna mieć następujący prototyp:
+
+int GCD(int a, int b);
+Napisz program, który pobierze od użytkownika dwie liczby i wyznaczy dla nich największy wspólny dzielnik.
+
+W przypadku wprowadzenia błędnych danych wyświetlić komunikat Incorrect input i niezwłocznie zakończyć działanie z kodem błędu 1.
+Przykładowe wejście:
+
+Podaj a: 1694⏎
+Podaj b: 1736⏎
+Przykładowe wyjście:
+
+14⏎
+Uwagi
+W programie nie wolno używać zmiennych globalnych.
+W programie nie wolno używać słowa kluczowego static.
+W programie nie wolno używać pętli.
+W programie nie wolno korzystać z biblioteki math.
