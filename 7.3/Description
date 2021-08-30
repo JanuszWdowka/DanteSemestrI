@@ -1,0 +1,8 @@
+Napisz funkcję o prototypie
+
+float circumference(float b);
+która zwraca która zwraca obwód koła o średnicy b lub -1 w przypadku podania błędnych danych.
+
+Napisz program, który poprosi użytkownika o wprowadzenie średnicy, a następnie wywoła funkcję circumference(), przekazując wprowadzoną liczbę jako argument. Na koniec program powinien wyświetlić wyliczony obwód.
+
+W przypadku wprowadzenia przez użytkownika błędnych danych program powinien wyświetlić komunikat Incorrect input i zakończyć działanie z kodem błędu 1.
