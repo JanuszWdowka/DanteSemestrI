@@ -1,0 +1,6 @@
+Napisz program, który dla dwóch, podanych z klawiatury wartości, wyświetla w oddzielnych liniach ich: sumę, różnicę, iloczyn i iloraz. Wartości należy wyświetlać z dokładnością do co najmniej jednej liczby po przecinku.
+
+Do wyznaczania wszystkich czterech wyników napisz oddzielne funkcje (add, subtract, multiply, divide). W przypadku błędnych danych funkcje te powinny zwrócić wartość -1.
+
+W przypadku wprowadzenia przez użytkownika błędnych danych program powinien wyświetlić komunikat Incorrect input i niezwłocznie zakończyć działanie z kodem błędu 1.
+Jeżeli nie będzie możliwe wykonanie którejś z operacji, zamiast jej wyniku program powinien wyświetlić komunikat Operation not permitted.
