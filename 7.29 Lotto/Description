@@ -1,0 +1,7 @@
+Napisz funkcję generującą N niepowtarzających się liczb losowych z zakresu <start, end>. Prototyp funkcji powinien wyglądać następująco:
+
+int generate(int lotto[], int N, int start, int end);
+Funkcja powinna zwrócić -1 w przypadku podania błędnych danych, lub 0 w przypadku sukcesu.
+
+Napisz program Lotto, wykorzystujący w/w funcję do wylosowania 6 niepowtarzających się liczb całkowitych. Wylosowane, za pomocą generatora liczb pseudolosowych, 
+liczby powinny mieć wartości z zakresu 1-49 i powinny być wyświetlone w jednej linii. Dodatkowo program Lotto powinien być wyposażony w funkcję wyświetlającą wylosowane liczby.
