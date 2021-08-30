@@ -1,0 +1,13 @@
+Napisz funkcję o prototypie
+
+int sign(int value);
+Ma ona zwracać warto
+
+-1 w przypadku liczby ujemnej,
+1 w przypadku dodatniej
+lub 0.
+Napisz program, który poprosi użytkownika o wprowadzenie liczby, a następnie wywoła funkcję sign, przekazując wprowadzoną liczbę jako argument. W zależności od wyniku działania funkcji sign program ma wyświetlić komunikat negative, zero lub positive.
+
+W przypadku wprowadzenia przez użytkownika błędnych danych program powinien wyświetlić komunikat Incorrect input i zakończyć działanie z kodem błędu 1.
+Uwagi
+W programie nie wolno używać instrukcji if.
