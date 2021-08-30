@@ -1,0 +1,18 @@
+Napisz funkcję rekurencyjną sumującą liczby od 1 do n, gdzie n jest dodatnią liczbą naturalną będącą argumentem funkcji.
+
+unsigned long sum_rec(int n);
+Napisz program, który pobierze od użytkownika n i wyznaczy sumę n pierwszych liczb naturalnych.
+
+W przypadku podania niewłaściwej wartości n przez użytkownika, program powinien wyświetlić komunikat Incorrect input data i zwrócić wartość 2.
+W przypadku wprowadzenia błędnych danych wyświetlić komunikat Incorrect input i niezwłocznie zakończyć działanie z kodem błędu 1.
+Przykładowe wejście:
+
+Podaj liczbę, dla której chcesz policzyć sumę: 5⏎
+Przykładowe wyjście:
+
+Wynik: 15⏎
+Uwagi⏎
+W programie nie wolno używać zmiennych globalnych.
+W programie nie wolno używać słowa kluczowego static.
+W programie nie wolno używać pętli.
+W programie nie wolno korzystać z biblioteki math.
