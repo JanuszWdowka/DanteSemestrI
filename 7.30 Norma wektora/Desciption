@@ -1,0 +1,19 @@
+Napisz następujące funkcje:
+
+vector_sum - funkcja zwracająca sumę elementów wektora,
+vector_max_norm - funkcja zwracająca wartość normy pierwszej wektora (największa wartość w wektorze co do modułu).
+Prototypy funkcji powinien wyglądać następująco:
+
+int vector_max_norm(const int tab[], int size);
+int vector_sum(const int tab[], int size);
+Napisz program, który pobierze od użytkownika granice przedziałów, z jakich mają być losowane liczby oraz ile liczb ma zostać wylosowanych (nie więcej niż 100) i następnie wylosuje liczby z zadanego przedziału wykorzystując funkcję generate z poprzedniego zadania.
+
+Program ma wyświetlić w kolejnych liniach:
+
+wektor z wylosowanymi liczbami,
+sumę wszystkich elementów wektora oraz
+wartość normy pierwszej wektora.
+Każda z powyższych operacji powinna odbywać się w osobnej funkcji, wykorzystaj do tego funkcje przygotowane w ramach wcześniejszych zadań.
+
+W przypadku podania wprowadzenia przez użytkownika błędnych danych program powinien wyświetlić komunikat Incorrect input i bezzwłocznie zakończyć działanie z kodem błędu 1.
+W przypadku podania przez użytkownika danych niezgodnych z treścią zadania program powinien wyświetlić komunikat Incorrect input data i zakończyć działanie z kodem błędu 2.
