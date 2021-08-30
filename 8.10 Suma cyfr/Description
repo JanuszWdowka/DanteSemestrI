@@ -1,0 +1,17 @@
+Napisz funkcję, która w sposób rekurencyjny policzy sumę cyfr w liczbie. Prototyp funkcji powinien wyglądać następująco:
+
+int sum_of_digits(long long number);
+Napisz program, który pobierze od użytkownika liczbę i policzy sumę cyfr w niej występujących.
+
+W przypadku wprowadzenia błędnych danych wyświetlić komunikat Incorrect input i niezwłocznie zakończyć działanie z kodem błędu 1.
+Przykładowe wejście:
+
+Podaj liczbe: 809⏎
+Przykładowe wyjście:
+
+Wynik: 17⏎
+Uwagi
+W programie nie wolno używać zmiennych globalnych.
+W programie nie wolno używać słowa kluczowego static.
+W programie nie wolno używać pętli.
+W programie nie wolno korzystać z biblioteki math.
